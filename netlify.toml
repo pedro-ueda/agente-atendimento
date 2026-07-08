@@ -1,0 +1,3 @@
+[build]
+  # Diz ao Netlify onde estão as suas funções backend
+  functions = "netlify/functions"
