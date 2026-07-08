@@ -1,3 +1,8 @@
 [build]
-  # Diz ao Netlify onde estão as suas funções backend
+  publish = "."
   functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/*"
+  status = 200
+  to = "/.netlify/functions/:splat"
