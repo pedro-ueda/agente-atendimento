@@ -1,5 +1,5 @@
 const CONFIG = {
     MODEL: "meta-llama/llama-3-8b-instruct:free", 
-    // Aponta para a sua rota interna do Netlify
-    API_URL: "//.netlify/functions/chat" 
+    // Mude de '//.netlify...' para apenas:
+    API_URL: "/.netlify/functions/chat" 
 };
